@@ -1,0 +1,85 @@
+h1{
+    font-family: 'Protest Riot', sans-serif;
+}
+body {
+    font-size: 17px;
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(hearttbgg.png);
+    background-size: 900px 550px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  h1, p {
+    text-align: center;
+  }
+  .message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heart {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .love-button {
+    font-family: 'Belanosima', sans-serif;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .love-button:hover {
+    background-color: #f50057;
+  }
+  .love-message {
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8bbd0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease forwards;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .picture1{
+    padding-left: 75px;
+    float: left;
+    animation: fadeIn 1s ease forwards;
+    padding-bottom: 7px;
+  }
+
+  .picture2{
+    padding-left: 10px;
+    float: left;
+    animation: fadeIn 1s ease forwards;
+  }
+
+  .picture3{
+    animation: fadeIn 1s ease forwards;
+  }
+  .picture4{
+    padding-left: 10px;
+    float: left;
+    animation: fadeIn 1s ease forwards;
+  }

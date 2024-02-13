@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine for My Princess</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <audio autoplay controls>
+    <source src="./Y2meta.app - Mitski - My Love Mine All Mine (128 kbps).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1>Happy Valentine's Day, My Love!</h1>
+    <p>Dear Yu Feng,</p>
+    <div class="message">
+      <p>On this special day, I want to express my love and gratitude for having you in my life.</p>
+      <p>You are the most amazing person I've ever met, and every moment with you is a treasure.</p>
+      <p>Your love fills my heart with joy and makes every day brighter.</p>
+      <p>Thank you for being my partner, my best friend, and my everything.</p>
+      <p>I cherish you more than words can say.</p>
+    </div>
+    <div class="button-container">
+      <button class="love-button" onclick="showLove()">Show My Love</button>
+    </div>
+    <div id="love-message" class="love-message">
+      <p>Sometimes when my luck,</p>
+      <p>is running out,</p>
+      <p>i look at you,</p>
+      <p>and remember the blessings,</p>
+
+      <p>that fell into my life.</p>
+      <div class="picture1">
+        <img src="./picture1.jpg" width="200" height="200">
+      </div>
+      <div class="picture2">
+        <img src="./picture2.jpg" width="200">
+      </div>
+      <div class="picture4">
+        <img src="./picture4.jpg" width="200">
+      </div>
+      <div class="picture3">
+        <img src="./picture3.jpg" width="500">
+      </div>
+
+      <p>You are the light of my life, and I am endlessly grateful for your love.</p>
+      <p>Together, we create memories that will last a lifetime.</p>
+      <p>I love you more than anything in this world. Happy Valentine's Day!</p>
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      var loveMessage = document.getElementById("love-message");
+      if (loveMessage.style.display === "none") {
+        loveMessage.style.display = "block";
+      } else {
+        loveMessage.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
